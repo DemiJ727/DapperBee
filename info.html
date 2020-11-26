@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>A Dapper Bee</title>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/project.css">
+        <link rel="stylesheet" type="text/css" href="header.html">
+    </head>
+    
+    <body class= "container">
+        <div class="container">
+            <div><header data-include="header.html"></header></div>
+            <div id="menu" data-include="menu.html"></div>
+            <div id="content"><h2>What is Stress?</h2></div>
+            
+            <img src="images/question-mark-1142900.jpg" class="img-fluid" id="question">
+            
+            <div class="text">
+                <p>Stress can range from the short to long term. In both cases there are ways that people can work to reduce stress levels. While not all stress is bad in moderation, it is still important for all people to reduce stress levels when they can. The reason behind this is because there are many negative side effects and consequences due to long term stress exposure.</p>
+                
+                <p>According to the <a href="https://www.apa.org/" target="_blank" class="typetwo">American Psychology Association</a>, there are several different forms of stress. The following definitions come from <a href="https://www.healthline.com/health/whats-your-stress-type#outlook" class="typetwo">Healthline</a>.
+                <div class="bord">
+                    <p>Hover over the bullet points below for quick definitions or click the button for more in depth information:</p>
+                    <ol>
+                        <li>
+                            <span title="An immediate threat that could be physical, emotional or psychological.">Acute Stress</span>
+                        </li>
+                        
+                        <li>
+                            <span title="Recurring instances of acute stress.">Episodic Acute Stress</span>
+                        </li>
+                        
+                        <li>
+                            <span title="The body's resonse to continuous feelings of stess and having little or no control.">Chronic Stress</span>
+                        </li>
+                       
+                    </ol>
+                <button id="myBtn">Let's Get More in Depth</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <div class="Mheader">
+                            <span class="close">&times;</span>
+                            <h2>The 3 Types of Stress</h2>
+                        </div>
+                        <div class="Mbody">
+                            <p><strong>Acute Stress</strong>: This is the most common type of stress. It is the body's immediate reaction to a situation that can be described as activating your "fight, flight, or freeze" response.</p>
+                            <p><strong>Episodic Acute Stress</strong>: When acute stress becomes reccuring but is not necessarily constant it is considered to be episodic acute stress.</p>
+                            <p><strong>Chronic Stress</strong>: This is when acute stress is not resolved, is long lasting, or events continue to occur to the point where the stress feels constant.</p>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+                
+                <h2>What does it do to you?</h2>
+                <br />
+                <p>While there are different types are stress, if stress becomes chronic over time it  can cause or contribute to many other health conditions. According to <a href="https://www.healthline.com/"target="_blank" class="typetwo">Healthline</a> stress in genderal can have many effects on the body, such as:</p>
+                    <ul>
+                        <li>Headaches and Tense Muscles</li>
+                        <li>Increased Depression and Insonmnia</li>
+                        <li>Rapid Breathing</li>
+                        <li>Weakened Immune System</li>
+                        <li>Pounding Heart and risk of Heart Attack</li>
+                        <li>High Blood Sugar and Pressure</li>
+                        <li>Reproductive System Issues in both men and women</li>
+                    </ul>
+                
+                <p>Many people are able to live happily and manage stress effectively. However, other people can suffer from versions of anxiety, depression, etc. which can heavily affect their lives in relationships and doing simple things like even going to a store.</p>
+                
+                <p>In cases like these, it is important that the individual learns what stress management techniques work for them. Individuals that believe they may be suffering from one of the above disorders should also speak with a medical professional, such as a healthcare provider, psychologist or psychiatrist. </p>
+                
+                </div>
+            
+            
+            <div><footer class="container-fluid" data-include="footer.html">Footer content</footer></div>
+        </div>
+
+        <script>
+// modal from w3 Schools
+            var modal = document.getElementById("myModal");
+
+            var btn = document.getElementById("myBtn");
+
+            var span = document.getElementsByClassName("close")[0];
+
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+
+// When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+
+// Outside of the modal, closes it
+            window.onclick = function(event) {
+            if (event.target == modal) {
+            modal.style.display = "none";
+            }
+        }
+        </script>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <script src="https://scripts.hopewebdesign.net/include.js"></script>
+    </body>

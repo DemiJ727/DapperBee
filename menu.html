@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    
+    <! -- This button is shown when the screen is smaller than the size associated with the navbar-expand-XX class above -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="mainnav" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="mainnav">
+      <div id="bar" class="navbar-nav">
+        <!--  Each menu item is represented by an a element; only 1 should have the class active  -->
+                <a class="nav-item nav-link" href="index.html">Home</a>
+
+                <a class="nav-item nav-link" href="info.html">Information</a>
+
+                <a class="nav-item nav-link" href="blogtips.html">Tips</a>
+
+                <a class="nav-item nav-link" href="music.html">Sounds</a>
+
+                <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+                    <input name="sitesearch" type="hidden" value="">
+                    <input autocomplete="on" class="form-control search" name="q" placeholder="Google Search..." required="required"  type="text">
+                    <button class="button" type="submit">Search</button>
+                </form>
+            
+            </div>
+          </div>
+</nav>
